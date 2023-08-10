@@ -47,7 +47,9 @@ const bloquearBtnAdd = computed(() => {
     <!-- no es necesario agregar el .value en el template -->
     <h2 :class="classCounter">{{ counter }}</h2>
     <div class="btn-group">
-      <button @click="increment" class="btn btn-success">Aumentar</button>
+      <button @click="increment" class="btn btn-success">Aumentar2</button>
+      <button @click="decrease" class="btn btn-danger">Disminuir</button>
+      <button @click="increment" class="btn btn-primary">Aumentar</button>
       <button @click="decrease" class="btn btn-danger">Disminuir</button>
       <button @click="reset" class="btn btn-secondary">Resetear</button>
       <button @click="add" :disabled="bloquearBtnAdd" class="btn btn-primary">Agregar</button>
