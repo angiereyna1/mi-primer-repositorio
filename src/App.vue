@@ -42,6 +42,8 @@ const bloquearBtnAdd = computed(() => {
 <template>
   <div class="container text-center mt-3">
     <h1>Hola {{ name.toUpperCase() }}!!!</h1>
+    <h1>Hola MIAMOR!</h1>
+
     <!-- no es necesario agregar el .value en el template -->
     <h2 :class="classCounter">{{ counter }}</h2>
     <div class="btn-group">
